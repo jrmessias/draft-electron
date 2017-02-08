@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello IT!</title>
+    <link rel="stylesheet" href="css/photon.min.css">
+  </head>
+  <body>
+    <div class="window">
+      <header class="toolbar toolbar-header">
+        <h1 class="title">Base64 Gen</h1>
+      </header>
+      <div class="window-content">
+        <div class="pane-group">
+            <div class="pane">
+              <div class="form-group">
+                <label>Text to generate</label>
+                <input type="text" name="txt" id="txt" class="form-control">
+                <button type="button" onclick="generate();" class="btn btn-large btn-default btn-primary">Generate</button>
+                <button type="button" onclick="decode();" class="btn btn-large btn-default btn-warning">Decode</button>
+                <div id="result" class="pane"></div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <footer class="toolbar toolbar-footer">
+        <h1 class="title">&copy; Copyright</h1>
+      </footer>
+    </div>
+  </body>
+  <script src="scripts/app.js"></script>
+</html>
